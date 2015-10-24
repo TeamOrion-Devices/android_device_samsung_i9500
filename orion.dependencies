@@ -1,0 +1,12 @@
+[
+    {
+        "repository": "GearCM/android_hardware_samsung_slsi-cm_exynos",
+        "target_path": "hardware/samsung_slsi-cm/exynos"
+        "branch":      "cm-11.0"
+    },
+    {
+        "repository": "CyanogenMod/android_packages_apps_SamsungServiceMode",
+        "target_path": "packages/apps/SamsungServiceMode"
+        "branch":      "cm-12.1"
+    }
+]
