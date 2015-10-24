@@ -19,12 +19,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/samsung/i9500/i9500.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/orion/config/nfc_enhanced.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/orion/config/common_full_phone.mk)
 
-PRODUCT_NAME := cm_i9500
+PRODUCT_NAME := orion_i9500
 PRODUCT_DEVICE := i9500
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := GT-I9500
